@@ -6,12 +6,13 @@ body {
 
 header {
         background: red;
-       margin-bottom: 0px
+        
 }
 
 header h1{ 
             margin: 0;
-            display:inline
+            display:inline;
+            font-size: 50px;
 }
 
 nav ul {
@@ -26,4 +27,8 @@ nav ul li{
                 list-style-type: none;
                 display: inline-block;
                 padding: 5px 15px
+}
+
+header img {
+    float:left;
 }
